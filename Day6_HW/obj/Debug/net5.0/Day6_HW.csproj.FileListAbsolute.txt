@@ -1,0 +1,16 @@
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.csprojAssemblyReference.cache
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.AssemblyInfoInputs.cache
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.AssemblyInfo.cs
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.csproj.CoreCompileInputs.cache
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.exe
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.deps.json
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.runtimeconfig.json
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.runtimeconfig.dev.json
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.dll
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\ref\Day6_HW.dll
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\bin\Debug\net5.0\Day6_HW.pdb
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.dll
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\ref\Day6_HW.dll
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.pdb
+C:\Users\Ranee\source\repos\Day6_HW\Day6_HW\obj\Debug\net5.0\Day6_HW.genruntimeconfig.cache
