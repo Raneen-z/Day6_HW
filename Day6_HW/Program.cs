@@ -22,9 +22,33 @@ namespace Day6_HW
             ///
             //I tried my best :") 
             Console.WriteLine("_____________________________\n");
-            Console.WriteLine(match("1238668321"));
+            Console.WriteLine(match2("12213300877899"));
         }
 
+
+        public static bool match2(string str)
+        {
+            string unclosed = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (unclosed.Contains(str[i]))
+                {
+                    int index = unclosed.IndexOf(str[i]);
+                    if ((index - (i + 1)%2!=0))
+                    {
+                        return false;
+                    }
+                    unclosed = unclosed.Remove(index,1);
+
+                }
+                else
+                {
+                    unclosed += str[i];
+                }
+            }
+            if (unclosed.Length == 0) return true;
+            else return false;
+        }
         public static bool match(string str)
         {
 
