@@ -22,7 +22,13 @@ namespace Day6_HW
             ///
             //I tried my best :") 
             Console.WriteLine("_____________________________\n");
-            Console.WriteLine(match2("12213300877899"));
+            
+            Console.Write("for \'1223321\'");
+            Console.WriteLine(match2("1223321") ?" All is matched":" Not all is matched");
+            Console.Write("for \'12213300877899\'");
+            Console.WriteLine(match2("12213300877899") ? " All is matched" : " Not all is matched");
+            Console.Write("for \'123231\'");
+            Console.WriteLine(match2("123231") ? " All is matched" : " Not all is matched");
         }
 
 
@@ -49,6 +55,8 @@ namespace Day6_HW
             if (unclosed.Length == 0) return true;
             else return false;
         }
+
+        // --------- not always right, switched to match2 function
         public static bool match(string str)
         {
 
