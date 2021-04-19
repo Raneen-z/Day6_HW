@@ -17,8 +17,72 @@ namespace Day6_HW
                 .get();
 
             Console.WriteLine(card);
+
+            /////////
+            ///
+            //I tried my best :") 
+            Console.WriteLine("_____________________________\n");
+            Console.WriteLine(match("1238668321"));
         }
+
+        public static bool match(string str)
+        {
+
+            //int temp = 0;
+            //123321
+            //i     ->0
+            // j    ->5
+            
+            if (str.Length % 2 != 0)
+            {
+                return false;
+            }
+
+            int temp = -1;
+            bool unclosed = false;
+            int count = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                
+                
+                for (int j = i + 1; j < str.Length; j++)
+                {
+
+                    if (str[i] == str[j])
+                    {
+                        temp = j;
+                        //((j % (i + 1))!=0)
+                        //
+                        if ((((j - (i + 1)) % 2) != 0) && (j - (i + 1)) != 0)
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            Console.WriteLine("matched "+str[i]+" at "+i+" with "+str[j]+" at "+ j);
+                            unclosed = true;
+                            
+                        }
+                        count++;
+                        break;
+                    }
+                  
+                    //if it reached the end and there's no closing case for it then it's not matched
+                    if ((j == (str.Length - 1)) && unclosed==false)
+                    {
+                        Console.WriteLine("reached end {0}=={1}",j,(str.Length-1));
+                        return false;
+                    }
+
+                }
+            }
+            if (count == str.Length / 2) return true;
+            else return false; 
+        }
+
     }
+
+
 
     class DrivingLicense
     {
